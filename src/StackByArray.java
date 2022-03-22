@@ -39,6 +39,13 @@ public class StackByArray implements Stack {
         return arr[top--];
     }
 
+    public int peek() throws MyStackException {
+        if(isEmpty()){
+            throw new EmptyStackException();
+        }
+        return arr[top];
+    }
+
     public void display() throws MyStackException{
         if(isEmpty()){
             throw new EmptyStackException();
@@ -69,6 +76,7 @@ public class StackByArray implements Stack {
             obj.push(10);
             obj.push(20);
             obj.push(30);
+            System.out.println("peeked: "+obj.peek());
             obj.pop();
             obj.pop();
             obj.pop();

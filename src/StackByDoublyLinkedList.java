@@ -52,6 +52,11 @@ public class StackByDoublyLinkedList implements Stack{
         return ans;
     }
 
+    public int peek() throws MyStackException {
+        if(isEmpty()) throw new EmptyStackException();
+        return top.getData();
+    }
+
     public void display() throws MyStackException{
         if(isEmpty()){
             throw new EmptyStackException();
@@ -85,6 +90,7 @@ public class StackByDoublyLinkedList implements Stack{
         obj.push(40);
         System.out.println("h");
         try {
+            System.out.println("peeked: "+obj.peek());
             obj.pop();
             System.out.println("popped: "+obj.pop());
             obj.display();
