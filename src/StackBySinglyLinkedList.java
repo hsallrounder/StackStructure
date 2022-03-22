@@ -56,21 +56,5 @@ public class StackBySinglyLinkedList implements Stack{
         //Stack named "stack" has been created.
         StackBySinglyLinkedList stack = new StackBySinglyLinkedList();
         //Functions can be implemented further.
-        /*
-        obj.push(10);
-        obj.push(20);
-        obj.push(30);
-        try {
-            System.out.println("peeked: "+obj.peek());
-            obj.pop();
-            obj.pop();
-            obj.pop();
-            System.out.println("popped: "+obj.pop());
-            obj.display();
-        }
-        catch (MyStackException e){
-            System.out.println(e.getMessage());
-        }
-         */
     }
 }

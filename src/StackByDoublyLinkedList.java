@@ -83,23 +83,5 @@ public class StackByDoublyLinkedList implements Stack{
         //Stack named "stack" has been created.
         StackByDoublyLinkedList stack= new StackByDoublyLinkedList();
         //Functions can be implemented further.
-        /*
-        obj.push(10);
-        obj.push(20);
-        obj.push(30);
-        obj.push(40);
-        System.out.println("h");
-        try {
-            System.out.println("peeked: "+obj.peek());
-            obj.pop();
-            System.out.println("popped: "+obj.pop());
-            obj.display();
-            System.out.println("reverse");
-            obj.displayRev();
-        }
-        catch (MyStackException e){
-            System.out.println(e.getMessage());
-        }
-         */
     }
 }

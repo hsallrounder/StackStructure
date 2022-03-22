@@ -71,23 +71,5 @@ public class StackByArray implements Stack {
         //Stack named "stack" has been created.
         StackByArray obj = new StackByArray(5);
         //Functions can be implemented further.
-        /*
-        try {
-            obj.push(10);
-            obj.push(20);
-            obj.push(30);
-            System.out.println("peeked: "+obj.peek());
-            obj.pop();
-            obj.pop();
-            obj.pop();
-            System.out.println("popped: "+obj.pop());
-            obj.display();
-            System.out.println("reverse");
-            obj.displayRev();
-        }
-        catch (MyStackException e){
-            System.out.println(e.getMessage());
-        }
-         */
     }
 }
